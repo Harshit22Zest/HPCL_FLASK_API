@@ -1,0 +1,47 @@
+{
+        "env": "pi",
+        "pi": {"auto_upload_zip_temp": "/home/pi/pyinstaller/temp/",
+        "auto_upload_zip_save": "/home/pi/pyinstaller/save/{}",
+        "auto_upload_save_path": "/home/pi/pyinstaller/{}",
+        "auto_upload_save_cameras_path": "/home/pi/pyinstaller/save/",
+        "app_server_host": "http://20.204.14.160/api/",
+        "entity-location": {"Hindustan Petroleum Corporation Limited": {"locations": ["Vishakhapatnam LPG"]}},
+        "duration": 30,
+        "cycle"   : "100",
+        "camera_config": {
+        "max"     : "5",
+        "camera_1":{
+                "cam_id"    : "rtsp://192.168.29.76/ch01.264",
+                "cam_name"  : "cam_1",
+                "fps1"      : "10",
+                "resize_x"  : "1280",
+                "resize_y"  : "720"},
+
+        "camera_2":{
+                "cam_id"    : "rtsp://192.168.29.712/ch01.264",
+                "cam_name"  : "cam_2",
+                "fps1"      : "10",
+                "resize_x"  : "1280",
+                "resize_y"  : "720"},
+        "camera_3":{
+                "cam_id"    : "rtsp://192.168.29.76/ch01.264",
+                "cam_name"  : "cam_3",
+                "fps1"      : "10",
+                "resize_x"  : "1280",
+                "resize_y"  : "720"},
+
+        "camera_4":{
+                "cam_id"    : "rtsp://192.168.29.76/ch01.264",
+                "cam_name"  : "cam_4",
+                "fps1"      : "10",
+                "resize_x"  : "1280",
+                "resize_y"  : "720"},
+
+        "camera_5":{
+                "cam_id"    : "rtsp://192.168.29.76/ch01.264",
+                "cam_name"  : "cam_5",
+                "fps1"      : "10",
+                "resize_x"  : "1280",
+                "resize_y"  : "720"}}
+        }
+}
